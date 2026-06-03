@@ -5,7 +5,7 @@ const Projects = () => {
     // States:
     return (
         <div className="flex flex-col gap-5">
-            <div className="flex gap-4 align-middle items-center">
+            <div className="flex w-max gap-6">
                 {projects.map((project)=>(
                     <Project project={project} />
                 ))}

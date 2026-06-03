@@ -1,5 +1,6 @@
 class Project {
-    constructor(name, description, imageLink, url, github) {
+    constructor(id ,name, description, imageLink, url, github) {
+        this.id = id,
         this.name = name,
         this.description = description,
         this.imageLink = imageLink,
